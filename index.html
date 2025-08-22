@@ -304,7 +304,7 @@ schedule.push({
             <td>0</td>
             <td><strong>${loanAmount.toFixed(2)}</strong></td>
             <td><strong>${totalInterest.toFixed(2)}</strong></td>
-            <td><strong>${(loanAmount + totalInterest + processingFee).toFixed(2)}</strong></td>
+            <td><strong>${(loanAmount + totalInterest + processingFee + processingFee*0.18).toFixed(2)}</strong></td>
             
         </tr>
     </tbody>
@@ -488,3 +488,4 @@ doc.save(filename);
 
 </body>
 </html>
+
